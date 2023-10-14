@@ -1,0 +1,12 @@
+runtime: nodejs14
+
+env_variables:
+  # Set your environment variables here
+  # Example:
+  # DB_HOST: localhost
+  # DB_PORT: 5432
+
+handlers:
+  - url: /.*
+    script: auto
+    secure: always
