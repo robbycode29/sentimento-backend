@@ -1,5 +1,4 @@
 const puppeteer = require('puppeteer-core');
-const words = require('../utils/wordsApi');
 
 var express = require('express');
 var router = express.Router();
